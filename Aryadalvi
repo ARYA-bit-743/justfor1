@@ -1,0 +1,38 @@
+print("--- 1. Numeric Types ---")
+my_int = 42                # Interger (int)
+my_float = 3.14159         # Floating-point (float)
+my_complex = 2+3j          # Complex number (complex)
+
+print(f"Integer value: {my_int}, Type: {type(my_int)}")
+print(f"Float value: {my_float}, Type: {type(my_float)}")
+print(f"Complex value: {my_complex}, Type: {type(my_complex)}\n")
+
+print("--- 2.Text Type ---")
+my_str = "Hello, Python!"    #string (str)
+print(f"Sting value: '{my_str}', Type: {type(my_str)}\n")
+
+print("--- 3.Sequence Types ---")
+my_list =[10, "apple",True]    #Mutable list (list)
+my_tuple=(1,2,3)              #Immutable tuple (tuple)
+my_range= range(5)             #sequence of numbers(range)
+
+print(f"List value: {my_list},Type: {type(my_list)}")
+print(f"Tuple value: {my_tuple},Type: {type(my_tuple)}")
+print(f"Range value: {list(my_range)},Type: {type(my_range)}\n")
+
+print("---4. Mapping Type ---")
+my_dict = {"name":"Alice","age": 25} #Key-value pairs(dict)
+print(f"Dictionary value: {my_dict},Type: {type(my_dict)}\n")
+
+print("---5. set Types ---")    #Unique elements (set)
+my_set ={1 ,2, 2, 3}
+
+print(f"Set value (duplicates removed): {my_set}, Type: {type(my_set)}")
+
+my_bool = True             #Logical true/false (bool)
+print(F"Boolean value: {my_bool}, Type: {type(my_bool)}\n")
+
+
+print("---8. None Type ---")
+my_none = None                #Represents absence of value (NoneType)
+print(f"None value: {my_none},Type: {type(my_none)}\n")
